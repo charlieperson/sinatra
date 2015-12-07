@@ -11,10 +11,10 @@ get '/secret' do
 end
 
 get '/cat' do
-  "<html>
-  <img src='http://bit.ly/1eze8aE' style='border: 5px dashed red;'>
-  </html>"
+  erb(:index)
 end
+
+
 
 get '/foot' do
   "loose. Get it?? Footloose!!"
